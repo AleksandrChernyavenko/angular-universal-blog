@@ -1,0 +1,108 @@
+<div class="navbar-fixed pos-absolute">
+  <nav class="blue-grey darken-3 no-color navbar-padding">
+    <div class="nav-wrapper container">
+
+      <a href="home-slider.html" class="brand-logo">
+        <img src="assets/images/logo/logo.svg" alt="Logo" class="logo z-depth-1 border-radius">
+        <span class="height-100"></span>
+        <span class="logo-text">&nbsp; Material</span>
+      </a>
+
+      <a href="#" data-activates="mobile-demo" class="button-collapse mobile-button-padding" style="padding-top: 10px;">
+        <i class="material-icons">menu</i>
+      </a>
+
+      <ul class="right hide-on-med-and-down">
+        <li class="padding-5" *ngFor="let category of categories">
+          <a [routerLink]="['/article',category.id]">
+            {{category.name}}
+          </a>
+        </li>
+
+        <li><a href="#!" data-activates="dropdown-6" class="dropdown-button">Pages<i class="material-icons tiny right"
+                                                                                     style="padding-top: 4px;">arrow_drop_down</i></a>
+          <ul id="dropdown-6" class="dropdown-content">
+            <li><a href="404.html">404</a></li>
+            <li><a href="500.html">500</a></li>
+            <li class="divider"></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="search.html">Search</a></li>
+          </ul>
+        </li>
+
+      </ul>
+
+      <ul id="mobile-demo" class="side-nav" style="left: -250px;">
+        <header class="background-3 section-overlay-darken" style="padding: 9px 0px;"><img
+          src="assets/images/logo/logo.svg" alt="Mobile Logo" width="40" height="40"><span>Material</span></header>
+        <li><a href="#!" data-activates="dropdown-1-mobile" class="dropdown-button">Home<i
+          class="material-icons tiny right">arrow_drop_down</i></a>
+          <ul id="dropdown-1-mobile" class="dropdown-content">
+            <li><a href="home-slider.html">Slider</a></li>
+            <li><a href="home-static.html">Static</a></li>
+            <li><a href="home-parallax.html">Parallax</a></li>
+            <li class="divider"></li>
+            <li><a href="home-app.html">App</a></li>
+            <li><a href="home-portfolio.html">Portfolio</a></li>
+          </ul>
+        </li>
+
+        <li><a href="#!" data-activates="dropdown-2-mobile" class="dropdown-button">About<i
+          class="material-icons tiny right">arrow_drop_down</i></a>
+          <ul id="dropdown-2-mobile" class="dropdown-content">
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="about-me.html">About Me</a></li>
+          </ul>
+        </li>
+
+        <li><a href="#!" data-activates="dropdown-3-mobile" class="dropdown-button">Services<i
+          class="material-icons tiny right">arrow_drop_down</i></a>
+          <ul id="dropdown-3-mobile" class="dropdown-content">
+            <li><a href="services.html">Services</a></li>
+            <li><a href="service-single.html">Single</a></li>
+          </ul>
+        </li>
+
+        <li><a href="#!" data-activates="dropdown-4-mobile" class="dropdown-button">Portfolio<i
+          class="material-icons tiny right">arrow_drop_down</i></a>
+          <ul id="dropdown-4-mobile" class="dropdown-content">
+            <li><a href="portfolio-grid-1.html">Grid 1</a></li>
+            <li><a href="portfolio-grid-2.html">Grid 2</a></li>
+            <li><a href="portfolio-cards.html">Cards</a></li>
+            <li class="divider"></li>
+            <li><a href="portfolio-single.html">Single</a></li>
+          </ul>
+        </li>
+
+        <li><a href="#!" data-activates="dropdown-5-mobile" class="dropdown-button">Blog<i
+          class="material-icons tiny right">arrow_drop_down</i></a>
+          <ul id="dropdown-5-mobile" class="dropdown-content">
+            <li><a href="blog-full.html">Full</a></li>
+            <li><a href="blog-grid.html">Grid</a></li>
+            <li><a href="blog-sidebar.html">Sidebar</a></li>
+            <li class="divider"></li>
+            <li><a href="blog-single.html">Single</a></li>
+            <li><a href="blog-single-sidebar.html">&amp; Sidebar</a></li>
+            <li class="divider"></li>
+            <li><a href="blog-author.html">Author</a></li>
+          </ul>
+        </li>
+
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#!" data-activates="dropdown-6-mobile" class="dropdown-button">Pages<i
+          class="material-icons tiny right">arrow_drop_down</i></a>
+          <ul id="dropdown-6-mobile" class="dropdown-content">
+            <li><a href="404.html">404</a></li>
+            <li><a href="500.html">500</a></li>
+            <li class="divider"></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="search.html">Search</a></li>
+          </ul>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+</div>

@@ -22,7 +22,6 @@ import 'rxjs/add/operator/filter';
 import 'rxjs/add/operator/first';
 import 'rxjs/add/observable/of';
 import 'rxjs/add/observable/empty';
-import { NoContentComponent } from './no-content/no-content.component';
 import { SiteModule } from './site/site.module';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -42,7 +41,6 @@ export function Window() {
 @NgModule({
   declarations: [
     AppComponent,
-    NoContentComponent,
   ],
   imports: [
     ApiModule,
