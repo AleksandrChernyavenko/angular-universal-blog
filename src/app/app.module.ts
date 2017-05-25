@@ -57,7 +57,6 @@ export function Window() {
       }
     ]),
     // HomeModule,
-    BrowserAnimationsModule,
     SiteModule,
     BrowserModule.withServerTransition({
       appId: 'app'
